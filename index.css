@@ -1,0 +1,35 @@
+
+:root {
+    --text-nav-light: #F9F9F9;
+    --text-light: slategrey;
+    --text-dark: #2c3e50;
+
+    color: var(--text-dark);
+    background-color: var(--bg-dark);
+    font-family: 'Courier New', monospace;
+}
+
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-light);
+}
+
+a {
+    color: var(--text-light);
+    transition: color 0.2s;
+    text-decoration: none;
+}
+a:hover {
+    color: var(--text-dark);
+}
+
+strong {
+    color: var(--text-light);
+}
+
