@@ -1,0 +1,17 @@
+#!/bin/sh
+
+index_file='index.html'
+build_dir='build'
+lang_dir='lang'
+
+for lang in `ls "$lang_dir"`; do
+
+    mkdir -p "${build_dir}/${lang}"
+
+    set -a
+    . "${lang_dir}/${lang}"
+    set +a
+
+    envsubst < "$index_file" | tee "${build_dir}/${lang}/index_${lang}.html"
+done
+

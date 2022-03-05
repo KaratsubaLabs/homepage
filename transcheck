@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# warns if language files are missing translations
+
