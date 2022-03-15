@@ -1,0 +1,14 @@
+
+# used for common variables
+
+SITE_URL=karatsubalabs.com
+
+GIT_URL="https://git.${SITE_URL}"
+WIKI_URL="https://wiki.${SITE_URL}"
+TODO_URL="https://todo.${SITE_URL}"
+MD_URL="https://md.${SITE_URL}"
+SEARX_URL="https://searx.${SITE_URL}"
+RADIO_URL="https://radio.${SITE_URL}"
+DOCKER_URL="https://docker.${SITE_URL}"
+RAMEN_URL="https://ramen.${SITE_URL}"
+TAKOYAKI_URL="https://takoyaki.${SITE_URL}"

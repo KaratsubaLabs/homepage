@@ -3,6 +3,7 @@
     --text-nav-light: #F9F9F9;
     --text-light: slategrey;
     --text-dark: #2c3e50;
+    --highlight-light: #fd971f;
 
     color: var(--text-dark);
     background-color: var(--bg-dark);
@@ -33,13 +34,24 @@ strong {
     color: var(--text-light);
 }
 
+#topbar {
+    padding: 0.5rem;
+    background-color: var(--highlight-light);
+    display: flex;
+    justify-content: flex-end;
+}
+#switch-lang {
+    color: var(--text-dark);
+}
+
 #main-container {
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 4rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .home-headers {
     margin-bottom: 0;
 }
+

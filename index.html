@@ -10,26 +10,31 @@
 
     <body>
 
+        <div id="topbar">
+            <a id="switch-lang" href="">日本語</a>
+        </div>
         <div id="main-container">
 
-            <h1>🥕🍲からつばLABS</h1>
-            smelly kids that write questionable software
+            <h1>🥕🍲$title</h1>
+            $tagline
 
-            <h2 class="home-headers">Services</h2>
-            hosted services that we offer
+            <h2 class="home-headers">$header_services</h2>
+            $tagline_services
             <hr>
-            <ul>
-                <li><a href="">git</a></li>
-                <li><a href="">wiki</a></li>
-                <li><a href="">web editor</a></li>
-                <li><a href="">todo list</a></li>
-                <li><a href="">search engine</a></li>
-                <li><a href="">radio</a></li>
-                <li><a href="">docker registry</a></li>
+            <ul style="columns: 3">
+                <li><a href="$GIT_URL">$service_git</a></li>
+                <li><a href="$WIKI_URL">$service_wiki</a></li>
+                <li><a href="$TODO_URL">$service_todo</a></li>
+                <li><a href="$MD_URL">$service_md</a></li>
+                <li><a href="$SEARX_URL">$service_searx</a></li>
+                <li><a href="$RADIO_URL">$service_radio</a></li>
+                <li><a href="$DOCKER_URL">$service_docker</a></li>
+                <li><a href="$RAMEN_URL">$service_ramen</a></li>
+                <li><a href="$TAKOYAKI_URL">$service_takoyaki</a></li>
             </ul>
 
-            <h2 class="home-headers">Software</h2>
-            homebrew software
+            <h2 class="home-headers">$header_software</h2>
+            $tagline_software
             <hr>
             <ul>
                 <li><a href="">takoyaki</a></li>
@@ -38,8 +43,16 @@
                 <li><a href="">onigiri</a></li>
             </ul>
 
-            <h2 class="home-headers">Member List</h2>
+            <h2 class="home-headers">$header_members</h2>
+            $tagline_members
             <hr>
+            <ul>
+                <li><a href="">Anish Aggarwal</a></li>
+                <li><a href="">Henry Hu</a></li>
+                <li><a href="">Daniel Liu</a> (systems/dev)</li>
+                <li><a href="">Frank Tao</a> (machines/dev)</li>
+                <li><a href="">Zhehai Zhang</a> (dev)</li>
+            </ul>
 
         </div>
 
