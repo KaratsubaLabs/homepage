@@ -9,6 +9,9 @@ tagline_software='homebrew software'
 header_members='Members'
 tagline_members='active members'
 
+alternate_lang='日本語'
+alternate_lang_html='index_ja.html'
+
 service_git='git'
 service_wiki='wiki'
 service_todo='kanban'
@@ -18,3 +21,12 @@ service_radio='radio'
 service_docker='docker registry'
 service_ramen='anime index'
 service_takoyaki='cloud hosting platform'
+
+software_takoyaki='takoyaki'
+software_ramen='ramen'
+software_sashimi='sashimi'
+software_onigiri='onigiri'
+
+role_systems='systems'
+role_machine='machines'
+role_dev='dev'

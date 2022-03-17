@@ -1,13 +1,16 @@
 title='からつばLABS'
 title_home='ホーム'
-tagline=''
+tagline='ソフトウェアヲタクの大家族'
 
 header_services='サービス'
 tagline_services='ご利用してみてください'
 header_software='ソフトウェア'
 tagline_software='からつばLABS自作ソフト'
-header_members='メンバー'
+header_members='メンバーリスト'
 tagline_members='活躍会員'
+
+alternate_lang='english'
+alternate_lang_html='index_en.html'
 
 service_git='git'
 service_wiki='ウィキ'
@@ -18,3 +21,12 @@ service_radio='ラジオ'
 service_docker='dockerレジストリ'
 service_ramen='アニメ'
 service_takoyaki='クラウド'
+
+software_takoyaki='タコヤキ'
+software_ramen='ラーメン'
+software_sashimi='サシミ'
+software_onigiri='オニギリ'
+
+role_systems='システム'
+role_machine='ハードウェア'
+role_dev='デベロッパー'

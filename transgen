@@ -11,15 +11,15 @@ set +a
 
 for lang in `ls "$lang_dir"`; do
 
-    mkdir -p "${build_dir}/${lang}"
+    mkdir -p "${build_dir}"
 
     set -a
     . "${lang_dir}/${lang}"
     set +a
 
-    envsubst < "$index_file" | tee "${build_dir}/${lang}/index_${lang}.html"
+    envsubst < "$index_file" | tee "${build_dir}/index_${lang}.html"
 
-    # TODO find alternative to this
-    cp 'index.css' "${build_dir}/${lang}/"
 done
 
+# TODO find alternative to this
+cp 'index.css' "${build_dir}"
