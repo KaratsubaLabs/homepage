@@ -21,5 +21,10 @@ for lang in `ls "$lang_dir"`; do
 
 done
 
+# set default index page
+default_lang='en'
+cp "${build_dir}/index_${default_lang}.html" "${build_dir}/index.html"
+
+
 # TODO find alternative to this
 cp 'index.css' "${build_dir}"
